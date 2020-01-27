@@ -1,38 +1,56 @@
+
 .App {
-  text-align: center;
+  margin: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.backgroundBox {
+  height: 97vh;
+  border-radius: 0.3rem;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.menuBox {
+  background-color: #3377ff;
+  border-radius: 0.3rem 0 0 0.3rem;
+  padding-right: 0 !important;
+}
+
+.viewPage{
+  background-color: #e5ecfa;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.NavBtn{
   color: white;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: 1px solid white;
+  /* border-radius: 0.3rem 0.3rem 0.3rem 0.3rem; */
+  border-radius: 0.3rem 0 0 0.3rem;
+  display: block;
+  text-align: center;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: background-color 250ms ease-in;
+  border-right: none;
 }
 
-.App-link {
-  color: #61dafb;
+.NavBtn:hover {
+  color: #3377ff;
+  background-color: #e5ecfa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.activeNavBtn {
+  color: #3377ff;
+  background-color: #e5ecfa;
+}
+
+.heading {
+  font-family: 'Anton', sans-serif;
+}
+
+.text {
+  font-family: 'Noto Sans TC', sans-serif;
 }
