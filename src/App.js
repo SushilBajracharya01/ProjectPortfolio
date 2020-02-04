@@ -14,6 +14,7 @@ import { Resume } from './Resume';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 
+import Background from './assets/greenGrid2.png';
 import './App.css';
 
 
@@ -27,19 +28,20 @@ function App() {
           <div className="menuBox col-2 ">
             <NavMenu />
           </div>
-          <div className="viewPage col-10">
-            <Layout>
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/About" component={About} />
-                <Route path="/Skills" component={Skills} />
-                <Route path="/Education" component={Education} />
-                <Route path="/Project" component={Project} />
-                <Route path="/Resume" component={Resume} />
-                <Route path="/Contact" component={Contact} />
-                <Route component={NoMatch} />
-              </Switch>
-            </Layout>
+          <div className="viewPage col-10" >
+
+              <Layout>
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/About" component={About} />
+                  <Route path="/Skills" component={Skills} />
+                  <Route path="/Education" component={Education} />
+                  <Route path="/Project" component={Project} />
+                  <Route path="/Resume" component={Resume} />
+                  <Route path="/Contact" component={Contact} />
+                  <Route component={NoMatch} />
+                </Switch>
+              </Layout>
           </div>
         </div>
       </Router>

@@ -17,8 +17,9 @@
 }
 
 .viewPage{
-  background-color: #e5ecfa;
+  background-color: #fafafa;
   border-radius: 0 0.3rem 0.3rem 0;
+
 }
 
 .NavBtn{
@@ -53,4 +54,59 @@
 
 .text {
   font-family: 'Noto Sans TC', sans-serif;
+}
+
+.Button {
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none !important;
+  background: #3377FF;
+  color: white;
+  display: block;
+  transition: box-shadow 150ms ease-in;
+  transition: background-color 100ms ease-in;
+
+
+}
+
+.Button:hover {
+  box-shadow: 5px 4px 4px rgba(0,0,0,0.2);
+  color: #fff;
+  background-color: #5599ff;
+}
+
+.projectCard{
+  border: 1px solid black;
+  transition: box-shadow 150ms ease-in;
+}
+
+.projectCard:hover {
+  box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
+}
+
+.pj-description{
+  min-height: 8rem;
+}
+
+.proPicStyle {
+  max-height: 400px;
+  max-width: 400px;
+  border: 10px solid #6b9cff;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 700px) {
+  .proPicStyle {
+    max-height: 250px;
+    max-width: 250px;
+    
+  }
+}
+.aboutMeImg{
+  vertical-align: middle;
+  display: table-cell;
+
+}
+.aboutMeP{
+  font-size: 1.1rem;
 }

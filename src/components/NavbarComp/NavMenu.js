@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 
 import NavBtn from './NavBtn';
+import { faHome, faUniversity, faUser, faTools, faLaptopCode, faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const NavBar = styled.nav`
@@ -14,13 +15,13 @@ const NavBar = styled.nav`
 const NavMenu = () => {
     return (
         <NavBar>
-            <NavBtn href="" navItem="HOME" />
-            <NavBtn href="../About" navItem="ABOUT" />
-            <NavBtn href="../Skills" navItem="SKILLS" />
-            <NavBtn href="../Education" navItem="EDUCATION" />
-            <NavBtn href="../Project" navItem="PROJECT" />
-            <NavBtn href="../Resume" navItem="RESUME" />
-            <NavBtn href="../Contact" navItem="CONTACT" />
+            <NavBtn href="" navItem="HOME" navIcon={faHome}/>
+            <NavBtn href="../About" navItem="ABOUT" navIcon={faUser} />
+            <NavBtn href="../Skills" navItem="SKILLS" navIcon={faTools} />
+            <NavBtn href="../Education" navItem="EDUCATION" navIcon={faUniversity} />
+            <NavBtn href="../Project" navItem="PROJECT" navIcon={faLaptopCode} />
+            <NavBtn href="../Resume" navItem="RESUME" navIcon={faFile} />
+            <NavBtn href="../Contact" navItem="CONTACT" navIcon={faEnvelope} />
         </NavBar>
     )
 }
