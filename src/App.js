@@ -14,7 +14,6 @@ import { Resume } from './Resume';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 
-import Background from './assets/greenGrid2.png';
 import './App.css';
 
 
