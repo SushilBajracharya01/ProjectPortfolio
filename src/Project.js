@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { TitleHead } from './components/macroComponents/TitleHead';
 import ProjectCard from './components/ProjectCard';
@@ -12,11 +11,7 @@ import PokeDex from './assets/pokemon-Home.png';
 
 
 
-const ProjectContainer = styled.div`
-    height: 80vh;
-    overflow-y: scroll;
 
-`;
 
 export const Project = () => (
 
@@ -24,7 +19,7 @@ export const Project = () => (
         <TitleHead>PROJECTS</TitleHead>
         <div className="container border rounded">
 
-            <ProjectContainer className="row">
+            <div className="row ProjectContainer">
                 <ProjectCard 
                     img={pollMaster} 
                     title="Poll Master" 
@@ -54,7 +49,7 @@ export const Project = () => (
                     demoLink="https://sushilbajracharya01.github.io/PokeDex/"
                 />
                 
-            </ProjectContainer>
+            </div>
         </div>
 
     </div>

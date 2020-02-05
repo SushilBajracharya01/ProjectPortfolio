@@ -1,0 +1,24 @@
+.EducationCard {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.EducationCard:hover {
+    box-shadow: 5px 5px 5px #eee;
+}
+
+.InsName{
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none !important;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .text {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  

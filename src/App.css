@@ -110,3 +110,8 @@
 .aboutMeP{
   font-size: 1.1rem;
 }
+
+.ProjectContainer{
+  height: 80vh;
+  overflow-y: scroll;
+}

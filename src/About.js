@@ -15,7 +15,7 @@ export const About = () => (
                 <p>
                     My name is Sushil Bajracharya, I am a Front-End Developer with experience on web development of over a year. I am a final year bachelor's student currently studying Bachelors of Science in Computer Science and Information Technology (BSc.CSIT).  
                 </p>
-                <p>Before Web development, I had been involved in desktop application development and game development using unity. 
+                <p>Before Web development, I had been involved in other programming languages like C, C++, python and game development using unity. 
                     I  am fueled by my passion for learning and creating solutions for making lives easier. I consider myself to be 'forever student' eager to learn about technology and management.
                 </p>
                 <p>
