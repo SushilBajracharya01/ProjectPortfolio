@@ -22,9 +22,9 @@ export const Education = () => (
                     courseName="Higher Secondary Level"
                 />
                 <EducationCard 
-                    href="https://www.mbmc.edu.np/" 
+                    href="https://www.facebook.com/Mount-Sinai-English-Boarding-School-503760783006012/" 
                     InstitutionName="Mount Sinai English Boarding School" 
-                    InstitutionLocation=", Baneshwor"
+                    InstitutionLocation="Madhyapur Thimi, Thimi"
                     courseName="Secondary Level"
                 />
             </div>

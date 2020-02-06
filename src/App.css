@@ -31,8 +31,8 @@
   border-radius: 0.3rem 0 0 0.3rem;
   display: block;
   text-align: center;
-  margin: 0.5rem 0;
-  padding: 1rem;
+  margin: 0.4rem 0;
+  padding: 0.8rem;
   font-size: 1rem;
   transition: background-color 250ms ease-in;
   border-right: none;
@@ -114,4 +114,16 @@
 .ProjectContainer{
   height: 80vh;
   overflow-y: scroll;
+}
+
+.credit {
+  position: relative;
+  text-align: center;
+  background-color: #3377FF;
+  color: white;
+  padding: 0 !important;
+}
+
+.sushil{
+  position: absolute;
 }

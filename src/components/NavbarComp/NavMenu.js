@@ -8,7 +8,6 @@ import { faHome, faUniversity, faUser, faTools, faLaptopCode, faFile, faEnvelope
 
 const NavBar = styled.nav`
     list-style-type: none;
-    margin-top: 40%;
 `;
 
 

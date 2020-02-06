@@ -7,8 +7,8 @@ const NavBtn = (props) => {
     const { href, navIcon, navItem } = props;
     return (
         <li>
-            <NavLink to={href} exact={true} className='NavBtn text' activeClassName='activeNavBtn'>
-                <span className="mx-2"><FontAwesomeIcon icon={navIcon} /></span>{navItem}
+            <NavLink to={href} exact={true} className='NavBtn text ' activeClassName='activeNavBtn'>
+                <FontAwesomeIcon icon={navIcon} /><span className="d-none d-md-block">{navItem}</span>
             </NavLink>
         </li>
     )
