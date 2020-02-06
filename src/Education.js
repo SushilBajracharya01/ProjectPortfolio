@@ -4,7 +4,7 @@ import { EducationCard } from './components/macroComponents/EducationCard';
 
 
 export const Education = () => (
-    <div>
+    <div className="px-3">
         <TitleHead>EDUCATION</TitleHead>
         <div className="container border rounded">
 

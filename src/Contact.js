@@ -9,7 +9,7 @@ import { TitleHead } from './components/macroComponents/TitleHead';
 
 
 export const Contact = () => (
-    <div>
+    <div className="px-3">
         <TitleHead>CONTACT ME</TitleHead>
 
         <div className="mt-5 container rounded">
@@ -22,6 +22,9 @@ export const Contact = () => (
                 <ContactCard Icon={faTwitter} href="https://twitter.com/SushilBajra11" title="Twitter" />
                 <ContactCard Icon={faFacebook} href="https://www.facebook.com/Sushil.Bajracharya01" title="Facebook" />
             </div>
+            <p className="text-center text mt-5">
+                Thank You <span role="img" aria-label="smile">&#128522;</span>
+            </p>
         </div>
     </div>
 )

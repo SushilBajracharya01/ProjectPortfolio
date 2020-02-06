@@ -18,7 +18,7 @@ import sql from './assets/skills/sql.png';
 
 
 export const Skills = () => (
-    <div>
+    <div className="px-3">
         <TitleHead>SKILLS</TitleHead>
         <div className="container border rounded">
             <div className="row ProjectContainer">

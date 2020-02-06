@@ -15,7 +15,7 @@ import PokeDex from './assets/pokemon-Home.png';
 
 export const Project = () => (
 
-    <div>
+    <div className="px-3">
         <TitleHead>PROJECTS</TitleHead>
         <div className="container border rounded">
 

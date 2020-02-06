@@ -5,7 +5,7 @@ import proPic from './assets/propic.jpg';
 
 export const About = () => (
 
-    <div>
+    <div className="px-3">
         <TitleHead>ABOUT <span style={{ color: '#3377ff' }}>ME</span></TitleHead>
         <div className="container border rounded">
             <div className="row ProjectContainer">

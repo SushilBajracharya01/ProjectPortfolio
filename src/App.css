@@ -19,7 +19,7 @@
 .viewPage{
   background-color: #fafafa;
   border-radius: 0 0.3rem 0.3rem 0;
-
+  padding: 0 !important;
 }
 
 .NavBtn{
@@ -116,14 +116,22 @@
   overflow-y: scroll;
 }
 
-.credit {
-  position: relative;
-  text-align: center;
-  background-color: #3377FF;
-  color: white;
-  padding: 0 !important;
+.introTop{
+  text-align: left;
+  font-size: 1.2rem;
 }
 
-.sushil{
+.introduction{
   position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introBottom{
+  font-size: 2rem;
+  color: rgba(58, 124, 255, 0.952);
 }

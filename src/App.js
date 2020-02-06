@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import {
+  CSSTransition,
+  TransitionGroup
+} from 'react-transition-group';
 
 import { Layout } from './components/Layout';
 import NavMenu from './components/NavbarComp/NavMenu';
@@ -10,7 +13,6 @@ import { About } from './About';
 import { Skills } from './Skills';
 import { Education } from './Education';
 import { Project } from './Project';
-import { Resume } from './Resume';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 
@@ -29,18 +31,18 @@ function App() {
           </div>
           <div className="viewPage col-10" >
 
-              <Layout>
-                <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route path="/About" component={About} />
-                  <Route path="/Skills" component={Skills} />
-                  <Route path="/Education" component={Education} />
-                  <Route path="/Project" component={Project} />
-                  <Route path="/Resume" component={Resume} />
-                  <Route path="/Contact" component={Contact} />
-                  <Route component={NoMatch} />
-                </Switch>
-              </Layout>
+            <Layout>
+              
+              <Switch>
+                      <Route exact path="/" component={Home} />
+                      <Route path="/About" component={About} />
+                      <Route path="/Skills" component={Skills} />
+                      <Route path="/Education" component={Education} />
+                      <Route path="/Project" component={Project} />
+                      <Route path="/Contact" component={Contact} />
+                      <Route component={NoMatch} />
+                    </Switch>
+            </Layout>
           </div>
         </div>
       </Router>
