@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "%20Bajracharya.github.io/ProjectPortfolio/static/css/main.aa8e088c.chunk.css",
-    "main.js": "%20Bajracharya.github.io/ProjectPortfolio/static/js/main.95eece61.chunk.js",
-    "main.js.map": "%20Bajracharya.github.io/ProjectPortfolio/static/js/main.95eece61.chunk.js.map",
-    "runtime-main.js": "%20Bajracharya.github.io/ProjectPortfolio/static/js/runtime-main.2d3b19fa.js",
-    "runtime-main.js.map": "%20Bajracharya.github.io/ProjectPortfolio/static/js/runtime-main.2d3b19fa.js.map",
-    "static/css/2.cc04ce22.chunk.css": "%20Bajracharya.github.io/ProjectPortfolio/static/css/2.cc04ce22.chunk.css",
-    "static/js/2.f7b954de.chunk.js": "%20Bajracharya.github.io/ProjectPortfolio/static/js/2.f7b954de.chunk.js",
-    "static/js/2.f7b954de.chunk.js.map": "%20Bajracharya.github.io/ProjectPortfolio/static/js/2.f7b954de.chunk.js.map",
-    "index.html": "%20Bajracharya.github.io/ProjectPortfolio/index.html",
-    "precache-manifest.40bb958a17968099f1e1bbb455ed4d44.js": "%20Bajracharya.github.io/ProjectPortfolio/precache-manifest.40bb958a17968099f1e1bbb455ed4d44.js",
-    "service-worker.js": "%20Bajracharya.github.io/ProjectPortfolio/service-worker.js",
-    "static/css/2.cc04ce22.chunk.css.map": "%20Bajracharya.github.io/ProjectPortfolio/static/css/2.cc04ce22.chunk.css.map",
-    "static/css/main.aa8e088c.chunk.css.map": "%20Bajracharya.github.io/ProjectPortfolio/static/css/main.aa8e088c.chunk.css.map",
-    "static/js/2.f7b954de.chunk.js.LICENSE": "%20Bajracharya.github.io/ProjectPortfolio/static/js/2.f7b954de.chunk.js.LICENSE",
-    "static/media/goal-set.png": "%20Bajracharya.github.io/ProjectPortfolio/static/media/goal-set.55362069.png",
-    "static/media/home1-min.jpg": "%20Bajracharya.github.io/ProjectPortfolio/static/media/home1-min.01dd88a2.jpg",
-    "static/media/pokemon-Home.png": "%20Bajracharya.github.io/ProjectPortfolio/static/media/pokemon-Home.b4e75f99.png",
-    "static/media/pollmaster-homescreen.png": "%20Bajracharya.github.io/ProjectPortfolio/static/media/pollmaster-homescreen.2e96d5ad.png",
-    "static/media/propic.jpg": "%20Bajracharya.github.io/ProjectPortfolio/static/media/propic.28bea06f.jpg",
-    "static/media/todo-home.png": "%20Bajracharya.github.io/ProjectPortfolio/static/media/todo-home.b7ed0eaf.png"
+    "main.css": "/ProjectPortfolio/static/css/main.aa8e088c.chunk.css",
+    "main.js": "/ProjectPortfolio/static/js/main.daba5206.chunk.js",
+    "main.js.map": "/ProjectPortfolio/static/js/main.daba5206.chunk.js.map",
+    "runtime-main.js": "/ProjectPortfolio/static/js/runtime-main.20e91309.js",
+    "runtime-main.js.map": "/ProjectPortfolio/static/js/runtime-main.20e91309.js.map",
+    "static/css/2.cc04ce22.chunk.css": "/ProjectPortfolio/static/css/2.cc04ce22.chunk.css",
+    "static/js/2.f7b954de.chunk.js": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js",
+    "static/js/2.f7b954de.chunk.js.map": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js.map",
+    "index.html": "/ProjectPortfolio/index.html",
+    "precache-manifest.89605e1331f1d2700c06d81800ba38c8.js": "/ProjectPortfolio/precache-manifest.89605e1331f1d2700c06d81800ba38c8.js",
+    "service-worker.js": "/ProjectPortfolio/service-worker.js",
+    "static/css/2.cc04ce22.chunk.css.map": "/ProjectPortfolio/static/css/2.cc04ce22.chunk.css.map",
+    "static/css/main.aa8e088c.chunk.css.map": "/ProjectPortfolio/static/css/main.aa8e088c.chunk.css.map",
+    "static/js/2.f7b954de.chunk.js.LICENSE": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js.LICENSE",
+    "static/media/goal-set.png": "/ProjectPortfolio/static/media/goal-set.55362069.png",
+    "static/media/home1-min.jpg": "/ProjectPortfolio/static/media/home1-min.01dd88a2.jpg",
+    "static/media/pokemon-Home.png": "/ProjectPortfolio/static/media/pokemon-Home.b4e75f99.png",
+    "static/media/pollmaster-homescreen.png": "/ProjectPortfolio/static/media/pollmaster-homescreen.2e96d5ad.png",
+    "static/media/propic.jpg": "/ProjectPortfolio/static/media/propic.28bea06f.jpg",
+    "static/media/todo-home.png": "/ProjectPortfolio/static/media/todo-home.b7ed0eaf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d3b19fa.js",
+    "static/js/runtime-main.20e91309.js",
     "static/css/2.cc04ce22.chunk.css",
     "static/js/2.f7b954de.chunk.js",
     "static/css/main.aa8e088c.chunk.css",
-    "static/js/main.95eece61.chunk.js"
+    "static/js/main.daba5206.chunk.js"
   ]
 }
