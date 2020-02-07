@@ -9,6 +9,13 @@
   background-color: #282c34;
 
 }
+.TitleHead {
+  margin: 1rem 0 ;
+  text-align: center !important;
+  color: #282c34;
+  text-decoration: underline;
+  font-family: 'Anton', sans-serif;
+}
 
 .menuBox {
   background-color: #3377ff;

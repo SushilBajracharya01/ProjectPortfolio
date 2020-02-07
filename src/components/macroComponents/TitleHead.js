@@ -1,9 +1,7 @@
-import styled from 'styled-components';
+import React from 'react';
 
-export const TitleHead = styled.h1`
-    margin: 1rem 0 ;
-    text-align: center !important;
-    color: #282c34;
-    text-decoration: underline;
-    font-family: 'Anton', sans-serif;
-`;
+export const TitleHead = (props) => {
+    return(
+        <h1 className="TitleHead">{props.children}</h1>
+    )
+}

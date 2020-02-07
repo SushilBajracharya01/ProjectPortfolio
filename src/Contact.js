@@ -10,7 +10,7 @@ import { TitleHead } from './components/macroComponents/TitleHead';
 
 export const Contact = () => (
     <div className="px-3">
-        <TitleHead>CONTACT ME</TitleHead>
+        <TitleHead>CONTACT <span style={{ color: '#3377ff' }}>ME</span></TitleHead>
 
         <div className="mt-5 container rounded">
             <p className="text-center text">
