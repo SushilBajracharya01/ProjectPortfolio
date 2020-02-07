@@ -8,7 +8,7 @@ const NavBtn = (props) => {
     return (
         <li>
             <NavLink to={href} exact={true} className='NavBtn text ' activeClassName='activeNavBtn'>
-                <FontAwesomeIcon icon={navIcon} /><span className="d-none d-md-block">{navItem}</span>
+                <FontAwesomeIcon icon={navIcon} className="mx-0 mx-md-5"/><span className="d-none d-md-block">{navItem}</span>
             </NavLink>
         </li>
     )
