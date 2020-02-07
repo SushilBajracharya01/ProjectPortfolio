@@ -1,9 +1,9 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import { CodeBtn } from './macroComponents/CodeBtn';
 import { DemoBtn } from './macroComponents/DemoBtn';
-
-
 
 
 const ProjectCard = (props) => {
@@ -13,7 +13,13 @@ const ProjectCard = (props) => {
             <div className="projectCard card text-center my-3" >
 
                 <div className="overflow">
-                    <img src={img} alt={title} className="card-img-top" />
+                    <LazyLoadImage
+                        alt={title}
+                        height="140"
+                        src={img}    
+                        effect="blur"
+                        className="card-img-top"
+                    />
                 </div>
 
 
@@ -28,11 +34,11 @@ const ProjectCard = (props) => {
                     </p>
 
                     <div className="row">
-                        <div  className="col">
-                            <CodeBtn href={codeLink}/>
+                        <div className="col">
+                            <CodeBtn href={codeLink} />
                         </div>
-                        <div  className="col">
-                            <DemoBtn href={demoLink}/>
+                        <div className="col">
+                            <DemoBtn href={demoLink} />
                         </div>
                     </div>
 

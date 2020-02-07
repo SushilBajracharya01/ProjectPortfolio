@@ -1,4 +1,7 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import { TitleHead } from './components/macroComponents/TitleHead';
 
 import proPic from './assets/propic.jpg';
@@ -10,7 +13,12 @@ export const About = () => (
         <div className="container border rounded">
             <div className="row ProjectContainer">
                 <p align="center" className="col-12 col-lg-6 aboutMeImg">
-                    <img src={proPic} className="proPicStyle" alt="sushil profile pic" />
+                    <LazyLoadImage
+                        alt="sushil profile pic" 
+                        src={proPic} 
+                        className="proPicStyle"
+                        effect="blur"
+                    />
                 </p>
                 <div className="text aboutMeP col-12 col-lg-6 mt-1">
                     <p>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export const SkillCard = (props) => {
     const { href, name, icon } = props;
@@ -7,7 +9,14 @@ export const SkillCard = (props) => {
             <div className="card my-2 projectCard">
                 <a href={href} target="_blank" rel="noopener noreferrer">
                     <div className="my-2">
-                        <img src={icon} alt={name} className="card-img-top" height="140" title={name}/>
+                        <LazyLoadImage
+                            alt={name}
+                            height="140"
+                            src={icon} 
+                            title={name}
+                            effect="blur"
+                            className="card-img-top"
+                        />
                     </div>
                 </a>
             </div>
