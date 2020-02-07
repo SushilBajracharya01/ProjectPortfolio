@@ -1,4 +1,6 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
+
 import bgImg from './assets/home1-min.jpg';
 
 
@@ -12,15 +14,23 @@ const bgStyle = {
     backgroundSize: 'cover',
 }
 export const Home = () => (
-    
+
     <div style={bgStyle}>
         <div className="heading introduction">
             <div className="introTop text">
                 Hi, I am
             </div>
             SUSHIL BAJRACHARYA
-            <div className="introBottom text"></div>
+            <div className="introBottom text">
+                <Typewriter
+                    options={{
+                        strings: ['Front-End Developer', 'CSIT Student', 'Not a Robot'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+            </div>
         </div>
     </div>
-    
+
 )
