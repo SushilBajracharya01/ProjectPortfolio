@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ProjectPortfolio/static/css/main.c485ee1e.chunk.css",
-    "main.js": "/ProjectPortfolio/static/js/main.daba5206.chunk.js",
-    "main.js.map": "/ProjectPortfolio/static/js/main.daba5206.chunk.js.map",
+    "main.js": "/ProjectPortfolio/static/js/main.b329c451.chunk.js",
+    "main.js.map": "/ProjectPortfolio/static/js/main.b329c451.chunk.js.map",
     "runtime-main.js": "/ProjectPortfolio/static/js/runtime-main.20e91309.js",
     "runtime-main.js.map": "/ProjectPortfolio/static/js/runtime-main.20e91309.js.map",
     "static/css/2.cc04ce22.chunk.css": "/ProjectPortfolio/static/css/2.cc04ce22.chunk.css",
-    "static/js/2.f7b954de.chunk.js": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js",
-    "static/js/2.f7b954de.chunk.js.map": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js.map",
+    "static/js/2.9f86686f.chunk.js": "/ProjectPortfolio/static/js/2.9f86686f.chunk.js",
+    "static/js/2.9f86686f.chunk.js.map": "/ProjectPortfolio/static/js/2.9f86686f.chunk.js.map",
     "index.html": "/ProjectPortfolio/index.html",
-    "precache-manifest.e39496c3a920e2c3134ed6834d3f1049.js": "/ProjectPortfolio/precache-manifest.e39496c3a920e2c3134ed6834d3f1049.js",
+    "precache-manifest.7140a637a3898c0bb4d338a73a60eecd.js": "/ProjectPortfolio/precache-manifest.7140a637a3898c0bb4d338a73a60eecd.js",
     "service-worker.js": "/ProjectPortfolio/service-worker.js",
     "static/css/2.cc04ce22.chunk.css.map": "/ProjectPortfolio/static/css/2.cc04ce22.chunk.css.map",
     "static/css/main.c485ee1e.chunk.css.map": "/ProjectPortfolio/static/css/main.c485ee1e.chunk.css.map",
-    "static/js/2.f7b954de.chunk.js.LICENSE": "/ProjectPortfolio/static/js/2.f7b954de.chunk.js.LICENSE",
+    "static/js/2.9f86686f.chunk.js.LICENSE": "/ProjectPortfolio/static/js/2.9f86686f.chunk.js.LICENSE",
     "static/media/goal-set.png": "/ProjectPortfolio/static/media/goal-set.55362069.png",
     "static/media/home1-min.jpg": "/ProjectPortfolio/static/media/home1-min.01dd88a2.jpg",
     "static/media/pokemon-Home.png": "/ProjectPortfolio/static/media/pokemon-Home.b4e75f99.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.20e91309.js",
     "static/css/2.cc04ce22.chunk.css",
-    "static/js/2.f7b954de.chunk.js",
+    "static/js/2.9f86686f.chunk.js",
     "static/css/main.c485ee1e.chunk.css",
-    "static/js/main.daba5206.chunk.js"
+    "static/js/main.b329c451.chunk.js"
   ]
 }
