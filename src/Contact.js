@@ -16,7 +16,7 @@ export const Contact = () => (
             <p className="text-center text">
                 Hi,<br/> Thank you for visiting my portfolio website, and<br/> If you like my Portfolio and want to connect with me 
             </p>
-            <div className="mt-5 row">
+            <div className="mt-5 row border rounded pt-3">
                 <ContactCard Icon={faEnvelope} link="bajracharya.sushil01@gmail.com" title="gmail"/>
                 <ContactCard Icon={faLinkedin} href="https://www.linkedin.com/in/sushilbajracharya/" title="LinkedIn" />
                 <ContactCard Icon={faTwitter} href="https://twitter.com/SushilBajra11" title="Twitter" />
