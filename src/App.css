@@ -167,16 +167,11 @@
   font-size: 2rem;
   color: rgba(58, 124, 255, 0.952);
 }
-
-.errorBox {
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-Repeat;
-  background-color: #fff;
-  position: relative;
+.error404{
+  width: 20rem;
+  height: 20rem;
 }
 
-.error {
-  position: absolute;
-  
+.ErrorTxt {
+  color: #ff335f;
 }
