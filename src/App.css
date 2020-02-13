@@ -1,6 +1,6 @@
 
 .App {
-  margin: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .backgroundBox {
@@ -96,7 +96,7 @@
 }
 
 .projectCard{
-  border: 1px solid black;
+  border: 1px solid #ddd;
   transition: box-shadow 150ms ease-in;
 }
 
@@ -114,11 +114,23 @@
   border: 10px solid #6b9cff;
   border-radius: 50%;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .proPicStyle {
     max-height: 250px;
     max-width: 250px;
     
+  }
+}
+@media only screen and (max-width: 500px) {
+  .proPicStyle {
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .introduction{
+    font-size: 2.5rem !important;
+  }
+  .introBottom {
+    font-size: 1.4rem !important;
   }
 }
 .aboutMeImg{
@@ -133,7 +145,6 @@
 .ProjectContainer{
   height: 80vh;
   overflow-y: scroll;
-  display: grid;
   place-items: center;
 }
 
@@ -155,4 +166,17 @@
 .introBottom{
   font-size: 2rem;
   color: rgba(58, 124, 255, 0.952);
+}
+
+.errorBox {
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-Repeat;
+  background-color: #fff;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  
 }
