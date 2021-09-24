@@ -24,7 +24,7 @@ export const Home = () => (
             <div className="introBottom text">
                 <Typewriter
                     options={{
-                        strings: ['Front-End Developer', 'CSIT Student', 'Not a Robot'],
+                        strings: ['Front-End Developer', 'CSIT Student'],
                         autoStart: true,
                         loop: true,
                     }}
